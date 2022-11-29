@@ -8,23 +8,23 @@
 </head>
 <body>
     <div class="form">
-        <form action="">
-            First Name : <input type="text"> <br> <br>
-            Last Name : <input type="text"> <br> <br>
-            Email : <input type="text"> <br> <br>
-            Password : <input type="password" minlength="8"> <br> <br>
-            Birthday: <input type="date"> <br> <br>
+        <form method="get" action="">
+            First Name : <input type="text" name="firstname"> <br> <br>
+            Last Name : <input type="text" name="lastname"> <br> <br>
+            Email : <input type="text" name="email"> <br> <br>
+            Password : <input type="password" minlength="8"  name="password"> <br> <br>
+            Birthday: <input type="date"  name="birthday"> <br> <br>
             Gender: <br>
-            <input type="radio" name="gender">Male <br>
-            <input type="radio" name="gender">Female <br>
-            <input type="radio" name="gender">Other <br>
+            <input type="radio" name="gender" value="Male">Male <br>
+            <input type="radio" name="gender" value="Female">Female <br>
+            <input type="radio" name="gender" value="Other">Other <br>
 
             Pets: <br>
-            <input type="checkbox"> Cat <br>
-            <input type="checkbox"> Dog <br>
+            <input type="checkbox" name="cat"> Cat <br>
+            <input type="checkbox" name="dog"> Dog <br>
 
             Cars: <br>
-            <select  name="Cars">
+            <select  name="cars">
                 <option value="Audi">Audi</option>
                 <option value="Volvo">Volvo</option>
                 <option value="BMW">BMW</option>
@@ -36,3 +36,6 @@
     </div>
 </body>
 </html>
+
+
+<!-- http://127.0.0.1:5500/index.html?firstname=Animesh&lastname=Raj&email=animesh080808%40gmail.com&password=111111111111111111111111111&birthday=2022-11-12&gender=Male&cat=on&dog=on&cars=BMW&a=%21Register -->
