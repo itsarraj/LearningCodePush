@@ -1,0 +1,104 @@
+p {
+    text-decoration: ;
+    text-align: ;
+    text-transform: ;
+    text-overflow: ;
+    text-shadow: ;
+    text-indent: ;
+    line-height: ;
+    font-style: ;
+    font-size: ;
+    font-weight: ;
+    font-family: ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* element , element -- Select Both Elements
+eg
+ */
+
+/* element1 element2  -- select All element2 inside element1
+eg -
+h1 p {
+
+}
+
+<h1> Hello <p> paragraph </p> </h1> */
+
+
+/* element1 > element2 -- select All element2 if its parent is element1
+eg -
+h1 p {
+
+}
+
+This is Ok
+<h1> Hello
+<p> paragraph </p>
+</h1>
+
+This is not ok
+<h1> Hello
+<div>
+<p> paragraph </p>
+</div>
+</h1> */
+
+
+/* element1 + element2 -- select All element2 that is right after the element1
+eg -
+h1 + p {
+
+}
+<h1> Hello </h1>
+<p> paragraph </p> */
+
+
+
+/* h1 + p:hover {
+
+} */
+/*
+:last-chid
+:first-child
+!important ( not recommended)
+
+
+body{
+    background-image: url(bgpic.jpg);
+    /* background-image: url(link of the image on www); */
+
+
+/* } */
+
+/* h3 {
+    color: rgb(65, 88, 69);
+    text-align: center;
+    border: 15px dashed rgb(157, 189, 126) ;
+    /* border: 15px dashed rgba(157, 189, 126 , 0.5) ; */
+    /* The rgba is used to give opacity */
+
+    /* border: 15px solid rgb(157, 189, 126) ; */
+    /* cursor: pointer; */
+/* } */
